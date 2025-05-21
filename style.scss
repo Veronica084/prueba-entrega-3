@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+
+/*variables*/
+    $primary-color: rgba(238, 145, 45, 0.241);
+    $secondary-color: rgb(246, 246, 239);
+    
+    $background-color: rgb(6, 5, 5);
+    $background-color1: rgb(205, 205, 237);
+
+
+    /*BODY*/
+    body {
+     header{
+    padding: 0.5px;
+    font-size: 13px;
+  background-color:$background-color;}
+  main{background-color: $background-color1;}
+  }
+    
+
+   
+
+  .d-img{
+    width: 500px;
+    height: 400px;
+
+    a{
+      color:white;
+     background-color: rgba(244, 165, 29, 0.456);
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 10px;
+    text-decoration: underline;}}
+
+    h5{
+      font-size: 50px;
+    }
+
+
+  /*media query para tabletas*/
+
+   @media (min-width:600px){
+    header{
+      font-size: 18px;
+      padding: 20px;}}
+
+      h5{
+        font-size: 30px;
+      }
+
+   /*media query para computadora*/
+   @media (min-width:1024px) {
+    header{
+      font-size: 20px;
+      padding: 30px;
+      .d-img{
+        width: 30%;
+        height: 20%;
+      }
+    }
+    .textual{
+      font-size: 30px;
+
+    }
+    .textual-{
+      font-size: 30px;
+    }
+    p{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h5{
+      font-size: 50px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    }
+
+
+    a{
+      color:white;
+     background-color: rgba(244, 165, 29, 0.456);
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 10px;
+    text-decoration: underline;}
+  
+    /*HEADER*/
+    
+    
+    /*MAIN*/
+    
+    .cards{display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+    margin: 10px;
+    gap: 10px;
+    
+    
+    .card{
+      color: #000;
+      
+    border-radius: 20px;
+      &:hover{
+        color: rgb(28, 85, 135);
+        background-color: $secondary-color;
+        
+      }
+    }
+  }
+
+    
+
+
+    /*FOOTER*/
+    footer{
+  
+    }
+    .icon-item{
+      text-align: center;
+      justify-content: center;
+      background-color: rgb(61, 91, 91);
+           height: 10%;
+      width: 100%;
+
+    }
+    
+    
+    /**/

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    }
+    $primary-color: rgb(245, 222, 239);
+    $secundary-color: rgb(219, 105, 221);
+    /*BODY*/
+    body{background-color: $secundary-color;
+        
+
+
+      header{
+        background-color: $primary-color;
+
+        nav{
+            padding: 16px;
+
+            ul{
+                list-style: circle;
+                li{
+                    text-decoration: underline;
+
+                }
+            }
+        }
+      }
+      main{}  
+      footer{background-color: $primary-color;}
+    }
+
+    /*HEADER*/
+    /*MAIN*/
+    /*FOOTER*/
+    /**/

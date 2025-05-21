@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+/*BODY*/
+body {
+  background-color: rgb(219, 105, 221);
+}
+body header {
+  background-color: rgb(245, 222, 239);
+ 
+   
+}
+.d-item{
+height: 500px;
+
+}
+.d-img{
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+body header nav {
+  padding: 16px;
+}
+body header nav ul {
+  list-style: circle;
+}
+body header nav ul li {
+  text-decoration: underline;
+}
+body footer {
+  background-color: rgb(245, 222, 239);
+}
+
+/*HEADER*/
+/*MAIN*/
+/*FOOTER*/
+/**/
+
+/*# sourceMappingURL=style.css.map */
